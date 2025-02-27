@@ -30,3 +30,10 @@ while True:
     current_status = get_course_status(URL, COURSE_NAME)          # Save current status
 
     print(current_status)
+    if current_status and current_status != previous_status:
+        print(f"{COURSE_NAME} kursunun kayıt durumu değişti!")
+        print(f"Önceki Durum: {previous_status}")
+        print(f"Şu Anki Durum: {current_status}")
+        previous_status = current_status
+    else:
+        print(f"{COURSE_NAME} kursunda değişiklik yok.")
