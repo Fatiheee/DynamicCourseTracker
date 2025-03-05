@@ -2,19 +2,19 @@
 #include <Arduino.h>
 #include <WiFi.h>
 #include <ESP_Mail_Client.h>
-#define WIFI_SSID "Fatih"
-#define WIFI_PASSWORD "mehmedim35"
+#define WIFI_SSID "YOUR WIFI SSID HERE"
+#define WIFI_PASSWORD "YOUR WIFI PASSWORD HERE"
 
 /** The smtp host name e.g. smtp.gmail.com for GMail or smtp.office365.com for Outlook or smtp.mail.yahoo.com */
 #define SMTP_HOST "smtp.gmail.com"
 #define SMTP_PORT 465
 
 /* The sign in credentials */
-#define AUTHOR_EMAIL "esp32mailsendervaybe@gmail.com"
-#define AUTHOR_PASSWORD "nmzg wtoh bovt prwy"
+#define AUTHOR_EMAIL "YOUR AUTHOR EMAIL HERE"
+#define AUTHOR_PASSWORD "YOUR AUTHOR PASSWORD"
 
 /* Recipient's email*/
-#define RECIPIENT_EMAIL "fatih.at8505@gmail.com"
+#define RECIPIENT_EMAIL "YOUR RECIPIENT EMAIL HERE"
 
 /* Declare the global used SMTPSession object for SMTP transport */
 SMTPSession smtp;
