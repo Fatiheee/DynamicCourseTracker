@@ -1,12 +1,37 @@
-# Dynamic Course Tracker With ESP32 by using Thonny IDE
+# ESP32 Dynamic Course Tracker & Email Notifier by using Thonny IDE
 
-## A Dynamic functional Solution project written in Micropython sending e-mail who needs information about changing status Course 
+This project monitors a course availability status on a website and sends an **email notification** when the course status changes (e.g. from *“KAYIT DOLDU”* to *“KAYIT OL”*).
 
-This project is tracker automation system that sends immediately e-mail for Course status. Every part of this project is sample code which shows how to do the following:
+The project demonstrates **three different implementations**:
+- ESP32 (Arduino / C++) – Email sending only
+- Python (PC) – Course availability detection
+- ESP32 (MicroPython) – Full solution: detection + email notification
 
-* Create a new e-mail address for ESP32
-* Get an app-password from Gmail(1)
-* Write down the app-password related place
-* Upload the code to ESP32
+---
 
-# See the description
+## 📁 Project Structure
+.
+├── main.cpp
+├── main.py
+├── course_check.py
+└── README.md
+
+main.cpp
+Written for ESP32 used by Arduino Framework.
+For unnderstanding the SMTP and testing it.
+
+course_check.py
+Python code works on PC.
+Track the course status in dedicated Web page.
+
+main.py
+The standalone main **MicroPython** file from this repo, and execute on ESP32.
+- Set up Wi-Fi Connection
+- Check the course status from Web page
+- Send E-mail when status is changed
+
+# Read the instructions
+
+
+
+
