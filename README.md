@@ -10,21 +10,27 @@ The project demonstrates **three different implementations**:
 ---
 
 ## 📁 Project Structure
+
+```text
 .
 ├── main.cpp
 ├── main.py
 ├── course_check.py
 └── README.md
 
-main.cpp
+
+main.cpp  
+
 Written for ESP32 used by Arduino Framework.
 For unnderstanding the SMTP and testing it.
 
-course_check.py
+course_check.py  
+
 Python code works on PC.
 Track the course status in dedicated Web page.
 
-main.py
+main.py  
+
 The standalone main **MicroPython** file from this repo, and execute on ESP32.
 - Set up Wi-Fi Connection
 - Check the course status from Web page
