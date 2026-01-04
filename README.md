@@ -17,19 +17,18 @@ The project demonstrates **three different implementations**:
 ├── main.py
 ├── course_check.py
 └── README.md
-
-
-main.cpp  
+```
+```main.cpp```
 
 Written for ESP32 used by Arduino Framework.
-For unnderstanding the SMTP and testing it.
+For understanding the SMTP and testing it.
 
-course_check.py  
+```course_check.py```
 
 Python code works on PC.
 Track the course status in dedicated Web page.
 
-main.py  
+```main.py```
 
 The standalone main **MicroPython** file from this repo, and execute on ESP32.
 - Set up Wi-Fi Connection
@@ -38,6 +37,24 @@ The standalone main **MicroPython** file from this repo, and execute on ESP32.
 
 # Read the instructions
 
+```
+1) Sign up an e-mail account(e.g. Google) for sending e-mail
+2) Generate an app password for the e-mail account
+3) Install Thonny IDE and open it
+4) Connect the ESP32 to your PC and select it in Thonny
+5) Flash the MicroPython firmware to the ESP32 using esptool.py (via Thonny)
+6) Lastly, upload ## main.py ## from this repo
+```
 
+# Usage
+For Usage just wait to e-mail that ESP32 will send.
 
+**Do not forget that the ESP32 must remain powered on continuously and connected to Wi-Fi.**
+
+# Media
+
+![ESP32 Setup](images/IMG_9090.jpg)
+
+## References
+- https://randomnerdtutorials.com/esp32-send-email-smtp-server-arduino-ide/
 
