@@ -53,8 +53,10 @@ For Usage just wait to e-mail that ESP32 will send.
 
 # Media
 
-![ESP32 Setup](images/IMG_9090.jpg)
+ESP32 Setup and project view:
+https://drive.google.com/file/d/1VZr5oxbxLV6Jcjp-ByiU_n0bNiLHCXZ5/view?usp=sharing
 
 ## References
 - https://randomnerdtutorials.com/esp32-send-email-smtp-server-arduino-ide/
+- https://www.youtube.com/watch?v=elBtWZ_fOZU&list=PLw0SimokefZ3uWQoRsyf-gKNSs4Td-0k6
 
